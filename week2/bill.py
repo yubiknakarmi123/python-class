@@ -1,14 +1,14 @@
 business = []
 units = []
 
-for i in range(10):
+for i in range(3):
     name = input("Enter business name: ")
     u = int(input("Enter units consumed: "))
 
     business.append(name)
     units.append(u)
 
-for i in range(10):
+for i in range(3):
     if units[i] <= 50:
         cost = units[i] * 5
     elif units[i] <= 100:
